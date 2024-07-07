@@ -2,6 +2,8 @@
 
 ## Comandos Básicos do Git
 
+ teste para alteração
+
 1. **Configuração Inicial**
    ```bash
    git config --global user.name "Seu Nome"
