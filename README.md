@@ -39,16 +39,16 @@
      git branch nome_da_branch
 
 9.    **Mudar para uma Branch**   
-     ```bash
-     git checkout nome_da_branch
+       ```bash
+      git checkout nome_da_branch
 
 10.   **Criar e Mudar para uma Nova Branch**
       ```bash
-       git checkout -b nome_da_branch
+      git checkout -b nome_da_branch
 
 11. **Mesclar uma Branch**
-     ```bash
-     git merge nome_da_branch
+      ```bash
+      git merge nome_da_branch
 
 12. **Excluir uma Branch**
      ```bash
@@ -77,6 +77,8 @@
 18. **Resetar para um Commit Específico**
      ```bash
      git reset --hard hash_do_commit
+     git reset -- soft hash_do_commit
+     git reset -- mixed hash_do_commit
 
  19. **Verificar Diferenças Entre Commits ou Branches**    
       ```bash
